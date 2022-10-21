@@ -16,3 +16,8 @@ function isIsogram(str){
    }
    return true;
 }
+
+// alternative answer
+function isIsogram(str){
+  return new Set(str.toUpperCase()).size == str.length;
+}
