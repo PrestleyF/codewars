@@ -17,4 +17,4 @@ Array.prototype.reverse = function() {
       this[j] = temp
     }
     return this
-  };
+  }
