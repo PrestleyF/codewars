@@ -33,7 +33,7 @@
 // [output] an integer
 // The person to guess his hat's color first, 1 for a, 2 for b, 3 for c and 4 for d.
 
-// my code solution 
+// my code 
 function guessHatColor(a,b,c,d) {
     if( b == c){
       return 1
