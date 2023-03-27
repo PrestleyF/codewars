@@ -9,7 +9,7 @@
 // * With `name` not given 
 //   or `name` = ""        => return "Hello, World!"
 
-// my code solution 
+// my code  
 function hello(name) {
     if (name == null || name == ""){
       return 'Hello, World!'
