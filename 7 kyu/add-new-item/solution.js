@@ -2,7 +2,7 @@
 
 // In our test case we check to assure that the returned list has one more item than the input list. However the method needs some modification to pass this test.
 
-// my solution 
+// my code solution 
 function addExtra( listOfNumbers ){
     return [...listOfNumbers, 1]
 }
