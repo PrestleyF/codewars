@@ -9,7 +9,7 @@
 
 // "Buckethead" is an anagram of "DeathCubeK"
 
-// solution 
+// my solution 
 const isAnagram = (test, original)=>
   
      [...test.toLowerCase()].sort().join() == [...original.toLowerCase()].sort().join()
