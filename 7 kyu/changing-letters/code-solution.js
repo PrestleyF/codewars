@@ -10,7 +10,7 @@
 // Note: Y is not a vowel in this kata.
 
 
-// solution 
+// 
 
 function swap (string) {
     return string.replace(/[aeiou]/g, element => element.toUpperCase())
