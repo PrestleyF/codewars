@@ -16,7 +16,7 @@ function pluck(objs, name) {
    
    }
 
-// alternative solution 
+// alternative 
 function pluck(objs, name) {
     return objs.map(function(obj) { return obj[name] });
   }
