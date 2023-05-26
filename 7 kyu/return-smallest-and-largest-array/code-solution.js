@@ -6,7 +6,7 @@
 // [2334454,5] --> [5,2334454]
 // [1]         --> [1,1]
 
-// my solution 
+// 
 function minMax(arr){
     return [Math.min(...arr), Math.max(...arr)]
   }
