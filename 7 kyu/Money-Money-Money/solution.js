@@ -13,7 +13,7 @@
 //   Let T be the Tax Rate = 0.18      
 //   Let D be the Desired Sum = 1100.00
 
-// solution
+// 
 function calculateYears(principal, interest, tax, desired) {
     let total = principal 
     let i = 0
