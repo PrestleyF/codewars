@@ -5,7 +5,6 @@
 // 10, "blue", "red"  -->  ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"]
 // 0, "one", "two"    -->  []
 
-// solution 
 function alternate(n, firstValue, secondValue){
     const array = []
     for( let i = 0; i < n; i++){
