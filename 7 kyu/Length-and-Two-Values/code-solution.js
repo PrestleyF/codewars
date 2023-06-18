@@ -11,4 +11,4 @@ function alternate(n, firstValue, secondValue){
       array.push(i % 2 === 0 ? firstValue : secondValue)
     }
     return array
-  }
+  
