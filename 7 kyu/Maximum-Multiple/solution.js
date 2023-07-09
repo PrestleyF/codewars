@@ -19,7 +19,8 @@ function maxMultiple(divisor, bound){
   return N;
 }
 
-// or
+// alternative
+
 
 function maxMultiple(divisor, bound){
   bound-bound % divisor
