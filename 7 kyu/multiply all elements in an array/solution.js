@@ -6,6 +6,8 @@
 
 // multiplyAll([1, 2, 3])(2) = [2, 4, 6];
 
+// solution 
+
 function multiplyAll(array) {
     return function(multiplier){
       return array.map(element => element * multiplier)
