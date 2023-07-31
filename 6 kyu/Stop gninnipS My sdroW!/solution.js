@@ -7,7 +7,7 @@
 // spinWords( "This is another test" )=> returns "This is rehtona test"
 
 function spinWords(string) {
-    const words = string.split(' ');
+    let words = string.split(' ');
     const reversedWords = words.map(word => {
       return word.length >= 5 ? word.split('').reverse().join('') : word;
     });
