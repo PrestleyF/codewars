@@ -16,6 +16,8 @@
 
 
 
+
+
 function decipherThis(str) {
   const word = str.replace(/^(.)(.*)(.)$/, '$3$2$1');
   return word;
