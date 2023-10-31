@@ -9,7 +9,7 @@
 // XO("zzoo") => false
 
 
-// my solution
+// 
 
 function XO(str) {
     let countX = 0;
