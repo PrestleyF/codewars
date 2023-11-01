@@ -5,7 +5,7 @@
 // "312" should return "333122"
 // "102269" should return "12222666666999999999"
 
-// solution
+// 
 function explode(s) {
 let result  = ""
 for ( let i=0; i < s.length; i++) {
