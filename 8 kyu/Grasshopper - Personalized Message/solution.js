@@ -16,5 +16,10 @@ function greet (name, owner) {
     }
   }
 
+
+  // also using ternary operators
+  function greet (name, owner) {
+    return name === owner ? "Hello boss" : "Hello guest"
+  }
 console.log(('Daniel', 'Daniel'), 'Hello boss')
 console.log(('Greg', 'Daniel'), 'Hello guest')
