@@ -18,6 +18,8 @@ function greet (name, owner) {
 
 
   // also using ternary operators
+
+  
   function greet (name, owner) {
     return name === owner ? "Hello boss" : "Hello guest"
   }
