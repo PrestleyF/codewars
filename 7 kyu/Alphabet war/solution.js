@@ -25,14 +25,25 @@
 //                                   if fight has mqdz return left side wins
 
 function alphabetWar(fight) {
-    if (fight.includes('w') || fight.includes('p') || fight.includes('b') || fight.includes('s')){
-      return "Left side wins!";
-    } else if (fight.includes('m') || fight.includes('q') || fight.includes('d') || fight.includes('z')){
-      return "Right side wins!";
-    } else {
-      return "Let's fight again!";
+  let string = 'wpbs zdqm';
+  let count = 0;
+
+  for (let i = 0; i < fight.length; i++) {
+    for (let j = 0; j < string.length; j++) {
+      if (fight[i] == string[j]) {
+        count += j - 4;
+      }
     }
   }
+
+  if (count > 0) {
+    return "Right side wins!";
+  } else if (count < 0) {
+    return "Left side wins!";
+  }
+
+  return "Let's fight again!";
+}
 
 console.log( alphabetWar("z") , "Right side wins!" );
 console.log( alphabetWar("zdqmwpbs") , "Let's fight again!" );
