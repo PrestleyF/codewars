@@ -12,6 +12,9 @@
 
 // diagonal sum: 5 + 7 + 1 + 2 = 15
 
+
+// solution
+
 function diagonalSum(matrix){
  
 let numberOfArrays = matrix.length 
