@@ -11,18 +11,11 @@
 // "John Doe hs seven red pples under his bsket"          =>  0  ; missing: "a"
 // "Bb Smith sent us six neatly arranged range bicycles"  =>  3  ; missing: "o"
 
-function absentVowel(x){
-x = x.toLowerCase()
-const vowels = ['a', 'e', 'i', 'o', 'u'];
-let missingVowels = [];
-
-vowels.forEach(vowel => {
-    if(!x.include(vowel)) {
-        missingVowels.push(vowel)
+function absentVowel(x) {
+  var vowels = 'aeiou';
+  for (var i in vowels) {
+    if (x.toLowerCase().indexOf(vowels[i]) == -1) {
+      return Number(i);
     }
-})
-return missingVowels.length, missingVowels.join("")
+  }
 }
-
-console.log(absentVowel("John Doe hs seven red pples under his bsket"), 0);
-console.log(absentVowel("Bb Smith sent us six neatly arranged range bicycles"), 3);
